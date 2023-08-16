@@ -68,13 +68,13 @@ const livesDisplay = document.getElementById('lives')
 let displayMessage = document.getElementById('displayMessage')
 
 //variables for the audio files
-let startSound = new Audio('assets/sounds/start.wav');
-let eatFood = new Audio('assets/sounds/food.wav')
-let eatGhost = new Audio('assets/sounds/eatghost.wav')
-let powerFood = new Audio('assets/sounds/powerFood.wav')
-let deathOfPacMan = new Audio('assets/sounds/death.wav')
-let win = new Audio('assets/sounds/extrapac.wav')
-let scaredGhost = new Audio('assets/sounds/intermission.wav')
+let startSound = new Audio('/make-your-game/assets/sounds/start.wav');
+let eatFood = new Audio("/make-your-game/assets/sounds/food.wav");
+let eatGhost = new Audio("/make-your-game/assets/sounds/eatghost.wav");
+let powerFood = new Audio("/make-your-game/assets/sounds/powerFood.wav");
+let deathOfPacMan = new Audio("/make-your-game/assets/sounds/death.wav");
+let win = new Audio("/make-your-game/assets/sounds/extrapac.wav");
+let scaredGhost = new Audio("/make-your-game/assets/sounds/intermission.wav");
 
 //position variables for the game play components
 // 1. starting position of pac-man
