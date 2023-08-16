@@ -4,7 +4,7 @@ body {
     font-family: "New Times Roman", sans-serif;
     display: flex;
     overflow:hidden;
-    background-image: url("/make-your-game//assets/images/startPage.jpg");
+    background-image: url("/make-your-game/assets/images/startPage.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 90%;
@@ -79,6 +79,7 @@ body {
     height: 560px;
     margin-right: 200px;
     margin-bottom:  15px;;
+        margin-top: -11px;
     
 }
 
@@ -88,34 +89,34 @@ body {
 }
 
 .pac-dot {
-    background-image: url('/make-your-game/assets/images/yellowDot.png');
+    background-image: url('/assets/images/yellowDot.png');
     background-size: 110%;
     color:black;
 }
 
 .wall {
-    background-image: url('/make-your-game/assets/images/brick2.jpg');
+    background-image: url('/assets/images/brick2.jpg');
     background-size: 1000%;
 }
 
 .ghost-lair {
-    background-image: url('/make-your-game/assets/images/ghostLair.gif');
+    background-image: url('/assets/images/ghostLair.gif');
     background-size: 150%;
 }
 
 .power-pellet {
-    background-image: url('/make-your-game/assets/images/pill2.gif');
+    background-image: url('/assets/images/pill2.gif');
     background-size: 125%;
     background-position: center;
 }
 
 .blinky {
-    background-image: url('/make-your-game/assets/images/redghostgif.gif');
+    background-image: url('/assets/images/redghostgif.gif');
     background-size: 110%;
 }
 
 .pinky {
-    background-image: url('/make-your-game/assets/images/pinkghostgif.gif');
+    background-image: url('/assets/images/pinkghostgif.gif');
     background-size: 110%;
 }
 
@@ -125,44 +126,44 @@ body {
 }
 
 .clyde {
-   background-image: url('/make-your-game/assets/images/greenghostgif.gif');
+   background-image: url('/assets/images/greenghostgif.gif');
    background-size: 110%;
 }
 
 .scared-ghost {
-    background-image: url('/make-your-game/assets/images/scaredGhost.gif');
+    background-image: url('/assets/images/scaredGhost.gif');
     background-size: 110%;
 }
 
 .pac-man {
-    background-image: url('/make-your-game/assets/images/pac-man.gif');
+    background-image: url('/assets/images/pac-man.gif');
     background-size: 130%;
     background-position: center;
 }
 
 .pac-man-left {
-    background-image: url('/make-your-game/assets/images/pac-man.gif');
+    background-image: url('/assets/images/pac-man.gif');
     transform: scaleX(-1);
     background-size: 130%;
     background-position: center;
 }
   
 .pac-man-up {
-    background-image: url('/make-your-game/assets/images/pac-man.gif');
+    background-image: url('/assets/images/pac-man.gif');
     transform: rotate(270deg);
     background-size: 130%;
     background-position: center;
 }
   
 .pac-man-down {
-    background-image: url('/make-your-game/assets/images/pac-man.gif');
+    background-image: url('/assets/images/pac-man.gif');
     transform: rotate(90deg);
     background-size: 130%;
     background-position: center;
 }
 
 .pac-man-live {
-    background-image: url('/make-your-game/assets/images/pac-man.gif');
+    background-image: url('/assets/images/pac-man.gif');
     background-size: 130%;
     background-position: center;
 }
@@ -173,7 +174,7 @@ body {
     align-items: flex-start;
     flex-wrap: nowrap;
     height: 50vh;
-    margin-top: 20vh;
+    margin-top: 22vh;
     margin-bottom: 10vh;
     margin-left: -8%;
     margin-right: 3%;
